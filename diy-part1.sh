@@ -13,5 +13,5 @@
 # Uncomment a feed source
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
-sed -i '1i src-git passwall_luci https://github.com/Openwrt-Passwall/openwrt-passwall.git;25.12.25-1' feeds.conf.default
-sed -i '1i src-git passwall_packages https://github.com/Openwrt-Passwall/openwrt-passwall-packages.git^da0627f' feeds.conf.default
+sed -i '1i src-git passwall_luci https://github.com/Openwrt-Passwall/openwrt-passwall.git;25.11.15-1' feeds.conf.default
+sed -i '1i src-git passwall_packages https://github.com/Openwrt-Passwall/openwrt-passwall-packages.git^12cbfd7' feeds.conf.default

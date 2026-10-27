@@ -11,7 +11,7 @@
 #
 
 rm -rf feeds/packages/lang/golang
-git clone https://github.com/sbwml/packages_lang_golang -b 27.x feeds/packages/lang/golang
+git clone https://github.com/sbwml/packages_lang_golang -b 24.x feeds/packages/lang/golang
 
 if [ -f "$GITHUB_WORKSPACE/0001-Add-iptables-socket.patch" ]; then
     patch -p1 -N < "$GITHUB_WORKSPACE/0001-Add-iptables-socket.patch" || true
